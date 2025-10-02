@@ -40,6 +40,44 @@ nav a:hover {
     background: white;
     color: #00C853;
 }
+
+/* CTA-napit */
+.cta-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    background-color: #FF6D00; /* oranssi */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e65f00;
+}
+
+/* Toissijainen CTA esim. yhteystietoihin */
+.cta-secondary {
+    background-color: white;
+    color: #FF6D00;
+    border: 2px solid #FF6D00;
+}
+
+.cta-secondary:hover {
+    background-color: #FF6D00;
+    color: white;
+}
+
 #valittu {
     background: white;
     color: #00C853;
