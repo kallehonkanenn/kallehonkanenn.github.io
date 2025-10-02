@@ -130,3 +130,40 @@ footer {
         font-size: 20px;
     }
 }
+/* Yhteystiedot */
+.yhteystiedot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* keskittää vaakasuunnassa */
+    justify-content: center;  /* keskittää pystysuunnassa */
+    padding: 40px 20px;
+}
+
+.yhteystiedot table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: white;
+    border: 2px solid #00C853;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+.yhteystiedot th {
+    background-color: #00C853;
+    color: white;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.yhteystiedot td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.yhteystiedot tr:last-child td {
+    border-bottom: none;
+}
