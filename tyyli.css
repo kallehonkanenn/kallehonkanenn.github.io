@@ -188,3 +188,13 @@ footer {
     margin-top: 20px;
     padding: 20px;
 }
+
+.henkilot {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.yhteystiedot table {
+    width: 100%;
+    max-width: 600px;
+}
