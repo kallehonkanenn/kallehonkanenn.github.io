@@ -6,42 +6,28 @@ body {
     margin: 0;
 }
 
-/* fontit */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Header ja navigaatio */
+
 header {
     text-align: center;
     color: white;
-    background-image: url('kuvat/hero-fit365.jpg');
+    background-image: url('gymtausta.jpg'); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-nav a {
-    background: #00C853;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-nav a:hover {
-    background: white;
-    color: #00C853;
-}
 
-/* CTA-napit */
 .cta-container {
     margin-top: 20px;
     display: flex;
@@ -51,7 +37,7 @@ nav a:hover {
 }
 
 .cta-button {
-    background-color: #FF6D00; /* oranssi */
+    background-color: #FF6D00; 
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -66,7 +52,6 @@ nav a:hover {
     background-color: #e65f00;
 }
 
-/* Toissijainen CTA esim. yhteystietoihin */
 .cta-secondary {
     background-color: white;
     color: #FF6D00;
@@ -125,15 +110,7 @@ nav a:hover {
     color: #00C853;
 }
 
-/* Miksi valita */
-#miksi {
-    background-color: #00C853;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
 
-/* Footer */
 footer {
     background-color: white;
     display: flex;
@@ -155,7 +132,7 @@ footer {
     opacity: 0.7;
 }
 
-/* Responsiivisuus */
+
 @media (min-width: 900px) {
     .grid-container {
         grid-template-areas: 'g1 g2 g3';
@@ -168,12 +145,12 @@ footer {
         font-size: 20px;
     }
 }
-/* Yhteystiedot */
+
 .yhteystiedot {
     display: flex;
     flex-direction: column;
-    align-items: center;  /* keskittää vaakasuunnassa */
-    justify-content: center;  /* keskittää pystysuunnassa */
+    align-items: center;  
+    justify-content: center; 
     padding: 40px 20px;
 }
 
@@ -204,4 +181,10 @@ footer {
 
 .yhteystiedot tr:last-child td {
     border-bottom: none;
+}
+
+.esittely {
+    
+    margin-top: 20px;
+    padding: 20px;
 }
