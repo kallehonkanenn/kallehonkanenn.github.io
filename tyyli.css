@@ -13,11 +13,16 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+#etusivu header {
+    background-image: url('gymtausta.jpg') !important;
+}
+
+
 
 header {
     text-align: center;
     color: white;
-    background-image: url('gymtausta.jpg'); 
+    background-image: url('eikuvaa'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
