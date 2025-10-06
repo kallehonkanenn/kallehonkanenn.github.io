@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/* tekstien fontit */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
@@ -13,11 +14,13 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* sivujen headerkuvat */
+
 #etusivu header {
     background-image: url('gymtausta.jpg') !important;
 }
 
-
+/* header tyyli */
 
 header {
     text-align: center;
@@ -32,7 +35,7 @@ header {
     justify-content: center;
 }
 
-
+/* CTA napit */
 .cta-container {
     margin-top: 20px;
     display: flex;
@@ -115,6 +118,7 @@ header {
     color: #00C853;
 }
 
+/* footer tyyli */
 
 footer {
     background-color: white;
@@ -137,6 +141,7 @@ footer {
     opacity: 0.7;
 }
 
+/* skaalautuvuus eri teksteille */
 
 @media (min-width: 900px) {
     .grid-container {
@@ -150,6 +155,8 @@ footer {
         font-size: 20px;
     }
 }
+
+/* Yhteystietojen laatikko ja sommittelu */
 
 .yhteystiedot {
     display: flex;
@@ -188,11 +195,15 @@ footer {
     border-bottom: none;
 }
 
+/* etusivun perustekstin fixaus */
+
 .esittely {
     
     margin-top: 20px;
     padding: 20px;
 }
+
+/* mobiilinäkymä fixaus */
 
 .henkilot {
     width: 100%;
