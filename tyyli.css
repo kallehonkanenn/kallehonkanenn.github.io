@@ -24,6 +24,11 @@ h1, h2, h3 {
     background-image: url('salikuva.jpg') !important;
 }
 
+#ohjelmat header {
+    background-image: url('seinäkuva2.jpg') !important;
+}
+
+
 /* header tyyli */
 
 header {
