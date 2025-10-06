@@ -20,6 +20,10 @@ h1, h2, h3 {
     background-image: url('gymtausta.jpg') !important;
 }
 
+#yhteystiedot header {
+    background-image: url('salikuva.jpg') !important;
+}
+
 /* header tyyli */
 
 header {
